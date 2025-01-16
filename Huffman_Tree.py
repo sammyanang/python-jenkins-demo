@@ -122,7 +122,12 @@ def Huffman_Decoding(encoded_data, huffman_tree):
     string = ''.join([str(item) for item in decoded_output])
     return string        
 
-
+def calculator(first_number,second_number,operation):
+    if operation == 'add':
+        return first_number + second_number
+    if operation == 'subtract':
+        return first_number - second_number
+    
 """ First Test """
 #data = "This is a message to be compressed using the huffman compression algorithm"
 #print(data)
